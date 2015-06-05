@@ -12,7 +12,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 }
 
 .nav {
-  border-right: 1px solid #ccc;
+  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 .main {
@@ -21,6 +21,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 paper-toolbar {
   background-color: #42A5F5;
+}
+
+.nav-toolbar {
+  background-color: #1976D2;
+  height: 120px;
 }
 
 .content {
@@ -37,16 +42,12 @@ paper-toolbar {
   };
 }
 
-paper-toolbar {
-  background-color: #42A5F5;
-}
-
 .list {
   padding: 0;
 }
 
 .list paper-item {
-  height: 80px;
+  height: 60px;
   border-bottom: 1px solid #dedede;
   background-color: #fafafa;
 }
