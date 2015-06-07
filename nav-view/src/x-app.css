@@ -12,7 +12,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 }
 
 .nav {
-  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: rgba(0, 0, 0, 0.14902) 2px 2px 4px 0px;
+  box-sizing: border-box;
 }
 
 .main {
