@@ -1,16 +1,13 @@
-Application Layout Templates
-============================
 
-Use the application layout templates provided and start building responsive applications.
+<!---
 
-### [Application Layout Templates Viewer](http://polymerelements.github.io/app-layout-templates/index.html)
+This README is automatically generated from the comments in these files:
 
-#### Templates:
 
-[Left Nav + View](http://polymerelements.github.io/app-layout-templates/nav-view/index.html)
+Edit those files, and our readme bot will duplicate them over here!
+Edit this file, and the bot will squash your changes :)
 
-[Left Nav + Card Feed](http://polymerelements.github.io/app-layout-templates/nav-cards/index.html)
+-->
 
-[Left Nav + List + Detail](http://polymerelements.github.io/app-layout-templates/nav-list-detail/index.html)
+_[Demo and API Docs](https://elements.polymer-project.org/elements/app-layout-templates)_
 
-[List Left + Card over Extended Header](http://polymerelements.github.io/app-layout-templates/list-card-over/index.html)
