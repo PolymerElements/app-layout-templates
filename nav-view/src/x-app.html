@@ -13,6 +13,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../../../paper-drawer-panel/paper-drawer-panel.html">
 <link rel="import" href="../../../paper-header-panel/paper-header-panel.html">
 <link rel="import" href="../../../paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../../paper-item/paper-item.html">
+<link rel="import" href="../../../paper-menu/paper-menu.html">
 <link rel="import" href="../../../paper-toolbar/paper-toolbar.html">
 
 <!--
@@ -30,6 +32,31 @@ Left Nav + View
 
       <div class="nav" drawer>
         <!-- Nav Content -->
+        <paper-toolbar class="nav-toolbar">
+          <span>Nav View Menu</span>
+        </paper-toolbar>
+        <paper-menu class="list" on-iron-activate="_listTap">
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+          <paper-item></paper-item>
+        </paper-menu>
       </div>
 
       <paper-header-panel class="main" main mode="waterfall">
@@ -37,6 +64,7 @@ Left Nav + View
         <!-- Main Toolbar -->
         <paper-toolbar>
           <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+          <span>Content Title</span>
         </paper-toolbar>
 
         <!-- Main Content -->
