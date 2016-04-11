@@ -117,7 +117,7 @@ Displays a page on different device layouts.
       _sourcesChanged: function(sources) {
         this.$.select.textContent = '';
         for (var i=0, s; s=sources[i]; i++) {
-          console.log(s.name)
+          Polymer.Base._log(s.name);
           this.$.select.add(this.create('option', {text: s.name}));
         }
         this.source = sources[0];
